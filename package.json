@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon main.js --"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/Vladus-CPU/backend-course-2025-4#readme",
   "dependencies": {
     "commander": "^14.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
